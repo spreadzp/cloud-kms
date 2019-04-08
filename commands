@@ -1,0 +1,5 @@
+gcloud auth login
+gcloud config set project nuserver
+gcloud app deploy
+gcloud app browse
+gcloud app logs tail -s default
